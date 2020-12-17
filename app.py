@@ -4,7 +4,7 @@ import pickle
 
 # load model
 model = pickle.load(open('C:/Users/Sanjay/3datascienceprojects/flaskMLdemo/flask-app/model.pkl','rb'))
-
+#path=C:\Users\Sanjay\3datascienceprojects\flaskMLdemo\flask-app
 # app
 app = Flask(__name__)
 
