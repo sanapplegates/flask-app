@@ -3,7 +3,8 @@ from flask import Flask, jsonify, request
 import pickle
 
 # load model
-model = pickle.load(open('C:/Users/Sanjay/3datascienceprojects/flaskMLdemo/flask-app/model.pkl','rb'))
+model_file ='C:/Users/Sanjay/3datascienceprojects/flaskMLdemo/flask-app/model.pkl'
+model = pickle.load(open(model_file,'rb'))
 #path=C:\Users\Sanjay\3datascienceprojects\flaskMLdemo\flask-app
 # app
 app = Flask(__name__)
